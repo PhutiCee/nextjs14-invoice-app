@@ -99,4 +99,3 @@ Have questions or feedback? Reach out to us:
 - **Email**: [phuti.developer@gmail.com](mailto:your-email@example.com)
 - **GitHub**: [PhutiCee](https://github.com/PhutiCee)
 
-![Footer](path/to/footer-image.png)
