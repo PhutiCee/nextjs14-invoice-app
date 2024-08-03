@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GetInvoice
 
-## Getting Started
+![Logo](https://github.com/PhutiCee/nextjs14-invoice-app/blob/master/public/image/phuti_ico.png)
 
-First, run the development server:
+GetInvoice is a free online invoicing software that helps you create and print invoices for your customers for free! Share invoices effortlessly with others.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Create and manage invoices
+- Print and share invoices
+- Responsive design using Tailwind CSS
+- PDF generation for invoices
+- User-friendly interface
 
-## Learn More
+## Demo
 
-To learn more about Next.js, take a look at the following resources:
+Check out the live demo: [GetInvoice Live Demo](http://example.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To get started with GetInvoice, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/PhutiCee/getinvoice.git
+    cd getinvoice
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Add environment variables**
+    Create a `.env` file in the root directory and add your environment variables. Example:
+    ```
+    NEXT_PUBLIC_BASEURL=http://localhost:3000
+    ```
+
+4. **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+5. **Build for production**
+    ```bash
+    npm run build
+    ```
+
+## Usage
+
+To use GetInvoice, follow these steps:
+
+1. **Navigate to the homepage**
+2. **Create a new invoice** by filling out the form
+3. **Print Invoice** your invoice
+4. **share** the invoice with your customers
+
+## Technologies
+
+- **Next.js** - The React Framework
+- **Tailwind CSS** - A utility-first CSS framework
+- **React-to-print** - Library for generating PDFs from React components
+
+## Contributing
+
+We welcome contributions to GetInvoice! To contribute, follow these steps:
+
+1. **Fork the repository**
+2. **Create a new branch** for your feature or bugfix
+    ```bash
+    git checkout -b feature-name
+    ```
+3. **Commit your changes**
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+4. **Push to your branch**
+    ```bash
+    git push origin feature-name
+    ```
+5. **Create a Pull Request** on GitHub
+
+## Contact
+
+Have questions or feedback? Reach out to us:
+
+- **Author**: Phuti Sekwadi
+- **Email**: [phuti.developer@gmail.com](mailto:your-email@example.com)
+- **GitHub**: [PhutiCee](https://github.com/PhutiCee)
+
+![Footer](path/to/footer-image.png)
