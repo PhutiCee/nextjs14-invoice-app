@@ -24,7 +24,7 @@ GetInvoice is a free online invoicing software that helps you create and print i
 
 ## Demo
 
-Check out the live demo: [GetInvoice Live Demo](http://example.com)
+Check out the live demo: [GetInvoice Live Demo](freeinvoice.vercel.app)
 
 ## Installation
 
