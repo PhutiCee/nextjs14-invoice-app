@@ -175,9 +175,16 @@ const InvoiceForm: React.FC = () => {
                     <button
                         type="button"
                         onClick={handlePrint}
-                        className="bg-blue-600 w-96 text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-700"
+                        className="hidden md:block bg-blue-600 w-96 text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-700"
                     >
                         Print Invoice
+                    </button>
+                    <button
+                        disabled
+                        type="button"
+                        className="md:hidden bg-gray-400 w-96 text-white py-2 px-4 rounded-md shadow-sm"
+                    >
+                        Use Desktop to print
                     </button>
                 </div>
             </form>
